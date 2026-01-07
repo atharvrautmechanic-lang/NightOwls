@@ -2,29 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>NightOwls – Questions</title>
+  <title>Questions | NightOwls</title>
   <link rel="stylesheet" href="nightowl_index.css">
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <nav id="navbar">
-    <div id="logo">
-        <img src="logo.png" alt="   logo">
+  <!-- Navbar (optional, keep consistent) -->
+  <nav id="navbar_subject">
+    <div id="logo_subject">
+      <img src="logo.png" alt="logo">
     </div>
-</nav>
 
-  <!-- PAGE HEADER -->
+    <div id="nightowls_subject">
+      <a href="nightowls_index.html">NightOwls</a>
+    </div>
+
+    <!-- <ul>
+      <li class="item"><a href="#something"></a></li>
+      <li class="item"><a href="#something"></a></li>
+    </ul> -->
+
+  </nav>
+
+  <!-- Page Header -->
   <section class="questions-header">
-    <h2 id="subject-name">Subject</h2>
-    <p id="topic-name">Topic</p>
+    <span class="breadcrumb">Home / Subject / Topic</span>
+    <h1 id="question-subject"></h1>
+    <p id="question-meta"></p>
   </section>
+  
 
-  <!-- QUESTIONS LIST -->
-  <main class="questions-container" id="questions-list">
-    <!-- Questions will load here -->
-  </main>
+  <!-- Questions -->
+  <section class="questions-section">
+    <div id="questions-container"></div>
+  </section>
 
   <script src="nightowls.js"></script>
 </body>
 </html>
+
